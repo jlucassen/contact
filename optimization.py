@@ -3,6 +3,7 @@ import scipy.optimize as opt
 from collections import deque
 from tqdm import tqdm
 import matplotlib.pyplot as plt
+#test
 
 def life(probabilities, lifetimes, maxes, beta=10):
     max_p = np.max(np.multiply(maxes, probabilities))
